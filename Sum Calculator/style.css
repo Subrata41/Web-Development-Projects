@@ -1,0 +1,40 @@
+body {
+  background: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  
+}
+h3 {
+  margin-right: 10px;
+}
+input {
+  padding: 10px 10px;
+  width: 50px;
+  font-size: large;
+}
+#ans {
+  padding: 10px 30px;
+  margin: 10px;
+  background-color: rgb(15, 206, 108);
+  color: rgb(255, 228, 196);
+  cursor: pointer;
+  font-size: large;
+}
+#ans:hover {
+    background-color: rgb(78, 146, 78);
+}
+
+#result {
+  padding: 10px 10px;
+  background-color: #f1f0f0;
+  font-size: large;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
